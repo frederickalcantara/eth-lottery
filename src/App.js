@@ -32,6 +32,8 @@ class App extends Component {
       value: web3.utils.toWei(this.state.value, "ether")
     });
 
+    // Add code to allow for who is the winner
+
     this.setState({ message: "You have been entered!" });
   };
 
